@@ -59,7 +59,7 @@ namespace HW_2512
 
             y = Convert.ToInt32(Console.ReadLine());
 
-            while (x = y)
+            while (x == y)
             {
                 Console.WriteLine("Bingo");
             }
