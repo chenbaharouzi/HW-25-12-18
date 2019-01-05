@@ -20,8 +20,32 @@ namespace HW_2512
 
             // Question5();
 
-            Question6();
+            // Question6();
+            
+             Question7();
+            
         }
+        
+          private static void Question7()
+        {
+            Console.WriteLine("please enter two numbers:");
+            int a, b;
+            int sum = 0, i = 1;
+
+            a = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToInt32(Console.ReadLine());
+            while (i <= b)
+            {
+                sum = sum + a;
+                i++;
+            }
+
+            Console.WriteLine($"the sum is: {sum}");
+
+            Console.ReadLine();
+        }
+        
+        
 
       
 
